@@ -1,0 +1,82 @@
+@import url('https://fonts.google.com/specimen/Karla');
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    height: 100%;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+.top_container {
+    width: 100%;
+    height: 130px;
+    padding: 40px 360px;
+}
+.title {
+    font-size: 26px;
+    color: hsl(179, 48%, 39%);
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.sub_title {
+    font-size: 20px;
+    color: hsl(71, 73%, 54%);
+    font-weight: bolder;
+    padding-bottom: 20px;
+}
+.text {
+    font-size: 16px;
+    color: hsl(218, 22%, 67%);
+    width: 600px;
+}
+.bottom_container {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    margin-left: 300px;
+    margin-bottom: 20px;
+}
+.left_box_con {
+    width: 450px;
+    height: 300px;
+    background-color: hsl(179, 62%, 43%);
+}
+.box_con1, .box_con2 {
+    width: 380;
+    padding: 50px 80px;
+}
+.box_con1 p {
+    font-size: 18px;
+    color: hsl(204, 43%, 93%);
+    font-weight: 400;
+    padding-bottom: 25px;
+}
+button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: 5px;
+    width: 270px;
+    height: 35px;
+    color: hsl(204, 43%, 93%);
+    font-size: 16px;
+    margin-top: 10px;
+}
+.right_box_con {
+    width: 450px;
+    height: 300px;
+    background-color: hsl(179, 62%, 43%);
+    opacity: 0.75;
+}
+.box_con2 p {
+    font-size: 16px;
+    color:  hsl(204, 43%, 93%);
+    padding-bottom: 5px;
+}
+.special_text {
+    font-size: 20px;
+    font-weight: bolder;
+    padding-bottom: 20px;
+    color: hsl(204, 43%, 93%);
+}

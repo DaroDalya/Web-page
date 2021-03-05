@@ -1,0 +1,97 @@
+@import url('https://fonts.google.com/specimen/Poppins');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+}
+.top_container {
+    width: 100%;
+    height: 120px;
+    margin-top: 40px;
+}
+.b_text {
+    text-align: center;
+    padding-bottom: 5px;
+}
+.s_text {
+    width: 400px;
+    text-align: center;
+    padding-left: 570px;
+    padding-top: 5px;
+}
+.s_heavy {
+    font-size: 25px;
+    font-weight: 200;
+}
+.heavy {
+    font-size: 25px;
+    font-weight: 600;
+}
+.light {
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    padding-top: 2px;
+}
+.bottom_container {
+    width: 1000px;
+    height: 510px;
+    display: flex;
+    padding-left: 290px;
+}
+.bottom_left_con,.bottom_middle_con,.bottom_right_con {
+    width: 258px;
+    height: 500px;
+    margin: 30px 30px;
+}
+.box_con1 {
+    width: 250px;
+    height: 190px;
+    border: 4px solid hsl(0, 0%, 98%);
+    border-radius: 6px;
+    border-top: 4px solid hsl(180, 62%, 55%);
+    margin-top: 140px;
+}
+.box_con2 {
+    width: 250px;
+    height: 190px;
+    border: 4px solid hsl(0, 0%, 98%);
+    border-radius: 6px;
+    border-top: 4px solid hsl(0, 78%, 62%);
+    margin-bottom: 60px;
+}
+.box_con3 {
+    width: 250px;
+    height: 190px;
+    border: 4px solid hsl(0, 0%, 98%);
+    border-radius: 6px;
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+.box_con4 {
+    width: 250px;
+    height: 190px;
+    border: 4px solid hsl(0, 0%, 98%);
+    border-radius: 6px;
+    border-top: 4px solid hsl(212, 86%, 64%);
+    margin-top: 140px;
+}
+.tittle {
+    font-weight: 600;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.description {
+    width: 210px;
+    font-size: 13px;
+    font-weight: 400;
+    color: hsl(229, 6%, 66%);
+    padding: 10px 25px;
+}
+.icon img {
+    padding-left: 160px;
+    padding-top: 10px;
+}

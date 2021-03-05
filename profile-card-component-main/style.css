@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url(images/bg-pattern-top.svg),url(images/bg-pattern-bottom.svg);
+    background-position: top -550px left -250px, bottom -800px right -250px;
+    background-repeat: no-repeat;
+    font-size: 18px;
+    font-family: "Kumbh Sans";
+}
+
+.profile_card {
+    height: 350px;
+    width: 320px;
+    background-color: white;
+    position: relative; 
+    top: 140px;
+    left: 600px;
+    border-radius: 10px ;  
+}
+
+.background img {
+    height: 120px;
+    width: 320px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.profile_image {
+    height: 45px;
+}
+.profile_image img{
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    border: 4px solid white;
+    border-radius: 50%;
+    bottom: 50px;
+}
+
+.profile_info {
+    width: 160px;
+    height: 50px;
+    position: relative;
+    left: 80px;
+    text-align: center;
+    padding: 35px 0px 20px 0px;
+}
+.info_1 {
+    display: flex;
+    float: left;
+}
+.info_1 p {
+    padding: 0 5px;
+}
+.s_heavy {
+    color: hsl(0, 0%, 59%);
+    font-weight: 400;
+}
+
+.info_2 p {
+    padding-top: 30px;
+}
+.profile_status {
+    width: 320px;
+    display: flex;
+    float: left;
+    border-top: 1px solid hsl(0, 0%, 59%);
+    padding: 15px 0;
+}
+
+.status_1 p,.status_2 p,.status_3 p {
+    padding: 0px 30px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.light {
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+ 
+.heavy {
+    font-size: 18px;
+    font-weight: 700;
+}

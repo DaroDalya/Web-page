@@ -1,0 +1,38 @@
+@media only screen and (min-width:375px) and (max-width:425px)
+{
+    .container {
+        height: 1180px;
+    }
+    .s_text {
+        width: 230px;
+        text-align: center;
+        padding-left: 70px;
+    }
+    .top_container {
+        margin: 80px 0px;
+    }
+    .bottom_container {
+        display: grid;
+        width: 260px;
+        height: 920px;
+        padding-left: 0px;
+    }
+    .bottom_left_con,.bottom_right_con {
+        height: 200px;
+        margin: 0px 58px;
+    }
+    .bottom_middle_con {
+        height: 450px;
+        margin-top: 40px;
+        margin-left: 58px;
+    }
+    .box_con1,.box_con2,.box_con3,.box_con4 {
+        margin: 0px;
+    }
+    .box_con2 {
+        margin-bottom: 40px;
+    }
+    footer {
+        margin-top: 20px;
+    }
+}
